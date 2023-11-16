@@ -7,8 +7,6 @@
 #include <stdlib.h>
 #include <ctype.h>
 
-#define STACK_SIZE 1000
-
 /**
  * struct stack_s - doubly linked list representation of a stack (or queue)
  * @n: integer
