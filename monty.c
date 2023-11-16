@@ -4,6 +4,7 @@ instruction_t ops[] = {
 	{"push", push},
 	{"pall", pall},
 };
+
 /**
  * main - program entry point
  * @argc: argument counts

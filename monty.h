@@ -44,6 +44,7 @@ void push(stack_t **stack, unsigned int line_num);
 void pall(stack_t **stack, unsigned int line_num);
 stack_t *push_stack(stack_t **stack, int value);
 int is_numeric(const char *str);
+void pint(stack_t **stack, unsigned int line_num);
 /** End*/
 
 #endif /** MONTY_H*/

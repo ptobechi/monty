@@ -27,3 +27,20 @@ int is_numeric(const char *str)
 	return (1);
 }
 
+/**
+ * pint - Prints the value at the top of the stack.
+ *
+ * @stack: A pointer to the top of the stack.
+ * @line_number: The current line number in the Monty bytecode file.
+ */
+void pint(stack_t **stack, unsigned int line_num)
+{
+	if (*stack == NULL)
+	{
+		fprintf(stderr, "L%d: can't pint, stack empty\n", line_num);
+		exit(EXIT_FAILURE);
+	}
+
+	printf("%d\n", (*stack)->n);
+}
+
