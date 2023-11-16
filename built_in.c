@@ -28,10 +28,10 @@ int is_numeric(const char *str)
 }
 
 /**
- * pint - Prints the value at the top of the stack.
+ * pint - prints the value at the top of the stack.
  *
  * @stack: A pointer to the top of the stack.
- * @line_number: The current line number in the Monty bytecode file.
+ * @line_num: The current line number in the Monty bytecode file.
  */
 void pint(stack_t **stack, unsigned int line_num)
 {
